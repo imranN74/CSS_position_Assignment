@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Z-Index Example</title>
+    <style>
+      div {
+        height: 100px;
+        width: 100px;
+        background-color: aquamarine;
+        border: 1px solid;
+      }
+      .one {
+        position: absolute;
+        z-index: 1;
+      }
+      /* box two has higher z-index value therefore it will be stacked over box one */
+      .two {
+        position: absolute;
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">One</div>
+    <div class="two">Two</div>
+  </body>
+</html>

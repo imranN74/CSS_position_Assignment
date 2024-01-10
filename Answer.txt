@@ -1,0 +1,11 @@
+Q1. Explain the difference between Absolute and Relative positioning.
+Ans :-
+Difference between Absolute and Relative positioning:-
+
+(a). Absolute Positioning:  When an element is positioned absolutely, it is removed from the normal flow of the document and is positioned relative to its closest positioned ancestor element or to the initial containing block.
+
+(b). An element is moved from its normal position, but its new position is determined relative to where it would have been in the normal document flow. It doesn't affect the layout of surrounding elements.
+
+Q5. Explain the z-index, with a code example.
+Ans :-
+z-index is a CSS property that controls the stacking order of positioned elements on a web page. Higher the z-index higher the stack position, and will be stacked over the element having lower z-index value.
